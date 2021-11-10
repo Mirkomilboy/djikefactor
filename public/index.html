@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DjikeFactor - Your friend in business</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <script src="app.js" defer></script>
+    <style>
+        .activeB{
+                background-color: #80ABD8;
+                
+            }
+
+        .swiper-button-prev {
+            color: #80ABD8; 
+        }
+
+        .swiper-button-next {
+            color: #80ABD8; 
+        }
+        .swiper-pagination-bullet {
+            border-radius: .5rem;
+            padding: 5px 10px;
+            width: auto;
+            height: 30px;
+            text-align: center;
+            line-height: 20px;
+            font-size: 12px;
+            color:#000;
+            opacity: 1;
+            background: rgba(0,0,0,0.2);
+        }
+        .swiper-pagination-bullet-active {
+            border-radius: .5rem;
+            color:#fff;
+            background: #80ABD8;
+        }
+        /* .swiper-pagination {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: auto !important;
+            left: auto !important;
+            margin: 0;
+        } */
+        
+    </style>
+</head>
+<body class="font-poppins">
+    <main class="text-brand-blue">
+        <!-- nav and hero -->
+        <section style="background-image: url(assets/business-1.jpg);" class="relative bg-cover bg-left-bottom w-full h-screen lg:h-60rem overflow-x-hidden">
+            <!-- navigation -->
+            <div class="flex items-center justify-between py-4 px-4 md:px-10">
+                <div>
+                    <a href="index.html">
+                        <img class="w-28 md:w-36" src="assets/logo-white.png" alt="logo">
+                    </a>
+                </div>
+                <div class="hidden md:flex items-center text-white font-medium space-x-6">
+                    <a href="#">Buyer</a>
+                    <a href="#">Seller</a>
+                    <a href="#">Login</a>
+                </div>
+                <div class="md:hidden">
+                    <button class="menuBtn text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                    <button class="xBtn hidden text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- menu -->
+            <div class="menu absolute z-10 left-0 w-full transform translate-x-full transition ease-in-out flex flex-col items-center justify-center font-medium bg-white/70 space-y-6 py-4">
+                <a href="#">Buyer</a>
+                <a href="#">Seller</a>
+                <a href="#">Login</a>
+            </div>
+
+
+            <div class="max-w-4xl px-6 md:px-10 pt-20 lg:pt-26rem">
+                <span class="flex items-center w-40 text-white rounded-3xl border-2 border-brand-teal mb-4 p-2 px-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="animate-pulse h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+                    </svg>
+                    <button class="watchVideo ml-2">Watch now</button>
+                </span>
+                <div class="">
+                    <h1 class="font-bold text-3xl sm:text-5xl md:text-6xl text-white leading-tight pb-4">It’s hard to grow your business as a buyer.</h1>
+                    <p class="font-medium text-white">Whether it’s creating your invoice, receiving your goods or selling your merchandise, Djikéfactor handles the day to day, so you can handle the future.</p>
+                </div>
+            </div>
+
+            <!-- <video class="video w-full" src="https://djikefactor.netlify.app/assets/djike-buyer.mp4" controls autoplay muted></video> -->
+        </section>
+
+        <!-- why chose us? -->
+        <section class="max-w-7xl mx-auto py-16 px-4">
+            <h1 class="font-bold text-5xl text-center pb-3">Why chose us?</h1>
+            <p class="text-center text-lg pb-20">Let us handle your day to day hassle</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <div>
+                    <img class="w-12 mx-auto animate-pulse" src="assets/support-b.svg" alt="">
+                    <h3 class="font-semibold text-3xl text-center pt-6">Get your goods faster than ever before</h3>
+                    <p class="text-lg text-center pt-3">With Djikéfactor, you won’t need to wait for weeks on end to have the capital to start buying for your business. We give it to you instantly, so you can keep focused on the tasks that need you.</p>
+                </div>
+                <div>
+                    <img class="w-12 mx-auto animate-wiggle" src="assets/map-b.svg" alt="">
+                    <h3 class="font-semibold text-3xl text-center pt-6">Grow your business hassle free</h3>
+                    <p class="text-lg text-center pt-3">
+                        We know that stressing about paying invoices is one of the last things you want to worry about. 
+                        So from the moment you join us, we make the whole process as simple as possible.
+                     </p>
+                </div>
+                <div>
+                    <img class="w-12 mx-auto animate-bounce" src="assets/phone-b.svg" alt="">
+                    <h3 class="font-semibold text-3xl text-center pt-6">Never worry about transport again</h3>
+                    <p class="text-lg text-center pt-3">
+                        We know one of the key things you have to handle is getting your goods to your customers. 
+                        We make sure it happens, in the smoothest, 
+                        quickest way possible so you don’t have to worry about a thing.
+                     </p>
+                </div>
+                <div>
+                    <img class="w-12 mx-auto animate-spin" src="assets/time-b.svg" alt="">
+                    <h3 class="font-semibold text-3xl text-center pt-6">Wave bye-bye to your never ending to-do list</h3>
+                    <p class="text-lg text-center pt-3">No more never ending piles of paperwork on your to-do list. With Djikéfactor, once you send us your invoice, we take over so you don’t have anything else to worry about.</p>
+                </div>
+                <div>
+                    <img class="w-12 mx-auto animate-wiggle" src="assets/network-b.svg" alt="">
+                    <h3 class="font-semibold text-3xl text-center pt-6">Win-win for buyer and seller alike</h3>
+                    <p class="text-lg text-center pt-3">It’s rare to get a deal that benefits both parties. But that’s what we’re here for. Everyone wins with Djikéfactor and business can go on as usual.</p>
+                </div>
+                <div>
+                    <img class="w-12 mx-auto animate-ping" src="assets/office-building-b.svg" alt="">
+                    <h3 class="font-semibold text-3xl text-center pt-6">Grow your network</h3>
+                    <p class="text-lg text-center pt-3">We know word gets around when it comes to buyers and sellers. So with Djikéfactor, you’ll never have to worry about your reputation. Your payments are your word, we make sure that your payments go through quickly and simply.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- desktop how it works section -->
+        <section class="py-24 bg-gray-100">
+            <div class="max-w-[90rem] mx-auto">
+                <div class="flex flex-col w-full items-center justify-center py-5">
+                    <h1 class="text-3xl font-bold text-center">How does Djike factor works?</h1>
+                    <span class="text-center">Only 4 steps</span>
+                </div>
+                <div class="flex ">
+                    <div class="swiper mySwiper relative">
+                        <div class="swiper-wrapper pt-16">
+                        <div class="swiper-slide">
+                            <div class="flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0" >
+                                <object class="w-96 lg:w-30rem" data="./assets/step-1-left.svg" type="image/svg+xml"></object>
+                                <object class="w-96 lg:w-30rem" data="./assets/step-1-right.svg" type="image/svg+xml"></object>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0">
+                                <object class="w-96 lg:w-30rem" data="./assets/step-2-left.svg" type="image/svg+xml"></object>
+                                <object class="w-96 lg:w-30rem" data="./assets/step-2-right.svg" type="image/svg+xml"></object>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0">
+                                <object class="w-96 lg:w-30rem" data="./assets/step-3-left.svg" type="image/svg+xml"></object>
+                                <object class="w-96 lg:w-30rem" data="./assets/step-3-right.svg" type="image/svg+xml"></object>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0">
+                                <object class="w-96 lg:w-30rem" data="./assets/step-4-right.svg" type="image/svg+xml"></object>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="swiper-pagination absolute top-0"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- features list with illustrations -->
+        <section class="lg:max-w-[90rem] lg:mx-auto overflow-x-hidden px-4 py-16 mt-20">
+            <div class="flex flex-col md:flex-row items-center justify-center md:justify-between md:space-x-6">
+                <div class="order-2 md:order-1 space-y-6 md:w-[40rem] mt-14 lg:mt-0">
+                    <h1 class="font-bold text-3xl lg:text-5xl xl:text-7xl">Fulfillment on easy mode</h1>
+                    <p>Don’t spend hours scouring through references and web pages to find your supplier. Make the most of our marketplace to check out some of the best and most reliable sellers from around the world.</p>
+                    <button class="w-[12rem] bg-linear-gradient py-3 rounded-md text-white font-semibold tracking-wide">Get Started</button>
+                </div>
+                <div class="order-1 md:order-2">
+                    <object class="w-96 lg:w-[42rem]" data="./assets/fulfillment-graphic.svg" type="image/svg+xml"></object>
+                </div>
+            </div>
+
+            <div class="flex flex-col md:flex-row items-center justify-center md:justify-between md:space-x-6 mt-40">
+                <div>
+                    <object class="w-96 lg:w-[42rem]" data="./assets/fulfillment-graphic.svg" type="image/svg+xml"></object>
+                </div>
+                <div class="space-y-6 md:w-[40rem] mt-14 lg:mt-0">
+                    <h1 class="font-bold text-3xl lg:text-5xl xl:text-7xl">Fulfillment on easy mode</h1>
+                    <p>Don’t spend hours scouring through references and web pages to find your supplier. Make the most of our marketplace to check out some of the best and most reliable sellers from around the world.</p>
+                    <button class="w-[12rem] bg-linear-gradient py-3 rounded-md text-white font-semibold tracking-wide">Get Started</button>
+                </div>
+            </div>
+
+            <div class="flex flex-col md:flex-row items-center justify-center md:justify-between md:space-x-6 mt-40">
+                <div class="order-2 md:order-1 space-y-6 md:w-[40rem] mt-14 lg:mt-0">
+                    <h1 class="font-bold text-3xl lg:text-5xl xl:text-7xl">Fulfillment on easy mode</h1>
+                    <p>Don’t spend hours scouring through references and web pages to find your supplier. Make the most of our marketplace to check out some of the best and most reliable sellers from around the world.</p>
+                    <button class="w-[12rem] bg-linear-gradient py-3 rounded-md text-white font-semibold tracking-wide">Get Started</button>
+                </div>
+                <div class="order-1 md:order-2">
+                    <object class="w-96 lg:w-[42rem]" data="./assets/fulfillment-graphic.svg" type="image/svg+xml"></object>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="flex flex-col md:flex-row items-center justify-between bg-gray-100 md:space-x-20 lg:space-x-32 mt-10 py-32 px-10">
+            <div class="w-full md:w-1/2">
+                <h1 class="font-bold text-2xl pb-6">Common Questions</h1>
+
+                <div class="pb-6">
+                    <h3 class="font-bold pb-2">How can you get in touch?</h3>
+                    <p>Simply send us an email at: contact@djikefactor.com With the details of your query and your country of residence. One of our representatives will be in touch.</p>
+                </div>
+
+                <div class="pb-6">
+                    <h3 class="font-bold pb-2">What are the administration fees?</h3>
+                    <p>Invoices between D100,000 and D1,500,000 fees are D10,000. Invoices between D1,500,001 and D3,000,000 fees are D20,000. Invoices above D3,000,001 fees are D30,000.</p>
+                </div>
+
+                <div class="pb-6">
+                    <h3 class="font-bold pb-2">How long will it take to fulfill my request?</h3>
+                    <p>Once you have qualified for Djikéfactor’s financing solution, we will pay your invoice in 72 hours or less. Your goods will then be delivered to your warehouse (please allow X weeks for delivery depending on the country the goods have been shipped from).</p>
+                </div>
+
+                <div class="pb-6">
+                    <h3 class="font-bold pb-2">How much does it cost?</h3>
+                    <p>We take 3% commission on the currency you give us. We also take 18% to cover the VAT costs associated with your transfer.</p>
+                </div>
+
+                <button class="md:w-[12rem] bg-linear-gradient py-3 rounded-md text-white font-semibold tracking-wide">See more FAQs</button>
+            </div>
+
+            <div class="w-full md:w-1/2">
+                <img class="w-full lg:pl-20" src="assets/faq-graphic.svg" alt="">
+            </div>
+        </section>
+
+        <footer class="bg-brand-dark pt-10 pb-5 px-10">
+            <div class="flex flex-wrap items-start text-gray-500">
+                <div class="w-full sm:w-1/2 lg:w-1/4 pr-10 lg:pr-20 pt-10 space-y-2">
+                    <h3 class="text-white font-bold text-lg">DjikeFactor</h3>
+                    <p>Djikéfactor finances your fulfillment and gets your invoices paid in less than 72 hours. Business, simplified</p>
+                    <div class="flex items-center space-x-4 pt-4">
+                        <a class="transform hover:-translate-y-0.5 transition ease-in-out" href="#">
+                            <img src="assets/instagram.svg" alt="">
+                        </a>
+                        <a class="transform hover:-translate-y-0.5 transition ease-in-out" href="#">
+                            <img src="assets/facebook -1.svg" alt="">
+                        </a>
+                        <a class="transform hover:-translate-y-0.5 transition ease-in-out" href="#">
+                            <img src="assets/linkedin-1.svg" alt="">
+                        </a>
+                        <a class="transform hover:-translate-y-0.5 transition ease-in-out" href="#">
+                            <img src="assets/youtube.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="w-full sm:w-1/2 lg:w-1/5 pr-10 lg:pr-20 pt-10">
+                    <h3 class="text-white font-bold text-lg">Quick Links</h3>
+                    <a class="hover:text-gray-300 transition ease-in-out block" href="#">Tems & services</a>
+                    <a class="hover:text-gray-300 transition ease-in-out block" href="#">Sitemap</a>
+                    <a class="hover:text-gray-300 transition ease-in-out block" href="#">Cookies</a>
+                </div>
+
+                <div class="w-full sm:w-1/2 lg:w-1/5 pr-10 lg:pr-20 pt-10">
+                    <h3 class="text-white font-bold text-lg">Services</h3>
+                    <a class="hover:text-gray-300 transition ease-in-out block" href="#">Get started</a>
+                    <a class="hover:text-gray-300 transition ease-in-out block" href="#">FAQ</a>
+                    <a class="hover:text-gray-300 transition ease-in-out block" href="#">Wetche change</a>
+                </div>
+
+                <div class="w-full sm:w-1/2 lg:w-1/5 pt-10">
+                    <h3 class="text-white font-bold text-lg">Reach Us</h3>
+                    <a class="hover:text-gray-300 transition ease-in-out block" href="mailto:djikefactor@djikefactor.com">Contact @djikefactor.com</a>
+                </div>
+            </div>
+
+            <div class="lg:flex items-center justify-between text-gray-500 text-sm lg:text-base pt-20">
+                <p>© 2020 DjikeFactor. All rights reserved</p>
+
+                <div class="pt-4 lg:pt-0">
+                    <a class="hover:text-gray-300 transition ease-in-out border-l border-gray-500 px-2 md:px-6" href="#">Terms & Conditions</a>
+                    <a class="hover:text-gray-300 transition ease-in-out border-l border-gray-500 px-2 md:px-6" href="#">Privacy Policy</a>
+                    <a class="hover:text-gray-300 transition ease-in-out border-l border-gray-500 px-2 md:px-6" href="#">Sitemap</a>
+                    <a class="hover:text-gray-300 transition ease-in-out border-l border-gray-500 px-2 md:px-6" href="#">Disclaimer</a>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+</html>
