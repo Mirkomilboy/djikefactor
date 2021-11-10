@@ -52,7 +52,7 @@ module.exports = {
       spin: 'spin 2s linear infinite',
       ping: 'ping 2s cubic-bezier(0, 0, 0.2, 1) infinite',
       pulse: 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;',
-      bounce: 'bounce 2s cubic-bezier(0.8, 0, 1, 1) infinite',
+      bounce: 'bounce 2s linear infinite',
      },
   },
   variants: {
